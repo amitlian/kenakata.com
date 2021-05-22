@@ -10,6 +10,7 @@ function FormInput({name,label}) {
             render={({ field }) => ( 
             <TextField {...field} label={label}/>)}
             as = {TextField}
+            defaultValue=""
             control = {control}
             fullWidth
             name={name}
